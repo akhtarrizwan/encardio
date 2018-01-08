@@ -59,16 +59,7 @@ sapp_Global::generateClientValidations($this->form);
 				   <span class="errors" id="errors-<?php echo $this->form->leave_limit->getId(); ?>"><?php echo $this->msgarray['leave_limit'];?></span>
 				<?php }?>
 				</div>
-				<div class="new-form-ui inputheight">
-                   <label class="required"> Select Leave Type </label>
-                <select class="form-dropdown" style="width:150px" id="input_5" name="q5_listOf">
-                <option value="ML"> Medical Leaves </option>
-                <option value="MPL"> Maternity/Paternity Leave </option>
-                <option value="SpL"> Special Leave </option>
-                <option value="SL">Sick Leave</option>
-                </select>
-                </div>
-		
+				
                 <div class="new-form-ui inputheight">
 				  <label class="required">Year</label>
 				<div class="division"><?php echo $this->form->alloted_year; ?></div>
